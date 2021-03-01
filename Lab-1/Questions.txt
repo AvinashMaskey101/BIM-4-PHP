@@ -1,0 +1,6 @@
+LAB QUESTIONS:
+
+1. Write a function to calculate sum of all even numbers that occurs between given two integers passed as parameter.
+2. Write a PHP program to create a multi-dimensional array that holds the user’s information such as (name, email, address, phone number). Then display that information in a table.
+3. Create a form that contains name and email as input fields. When form is submitted, validate both the fields.
+4. Write a program to differentiate between include and require functions. You can create a scenario to support your answer.
