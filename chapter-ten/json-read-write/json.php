@@ -1,5 +1,5 @@
 <?php
-$person = array(
+/* $person = array(
     array(
         'name' => 'Swapnil Sharma',
         'address' => 'Lalitpur',
@@ -10,6 +10,12 @@ $person = array(
         'address' => 'Kathmandu',
         'email' => 'cobweb@gmail.com'
     )
+); */
+
+$person = array(
+    'name' => 'Swapnil Sharma',
+    'address' => 'Lalitpur',
+    'email' => 'theshadowsnepal@gmail.com'
 );
 
 //array to json conversion

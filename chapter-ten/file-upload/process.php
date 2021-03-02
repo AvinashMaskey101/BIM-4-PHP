@@ -3,7 +3,7 @@ $allowed_ext = array('jpg', 'jpeg', 'png', 'gif');
 $dir = "uploads";
 
 if(!is_dir($dir)){
-    mkdir($dir, 0777, true);
+    mkdir($dir);
 }
 
 if ($_FILES['image']['error'] == 0) {

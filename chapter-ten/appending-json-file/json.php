@@ -1,19 +1,32 @@
 <?php
+$file_name = "data.json";
 $person = array(
-        'name' => 'Avinash Maskey',
-        'address' => 'Kathmandu',
-        'email' => 'avinash.maskey11@gmail.com'
+    'name' => 'Avinash Maskey',
+    'address' => 'Kathmandu',
+    'email' => 'avinash.maskey11@gmail.com'
 );
 
-$person = array(
-    $person
-);
+if (file_exists($file_name)) {
+    //file has been created
+    $old_data = file_get_contents($file_name);
+    if ($old_data) {
+        //not empty, already data exists
+        $to_write = json_decode($old_data);
+        $to_write[] = $person; 
+    } else {
+        //empty data
+        $to_write = array(
+            $person
+        );
+    }
+} else {
+    $to_write = array(
+        $person
+    );
+}
 
-$json_str = json_encode($person);
+$json_str = json_encode($to_write);
 
-$file_name = "users.json";
-
-//writing a json file
 $success = file_put_contents($file_name, $json_str);
 
 if ($success) {
@@ -24,7 +37,6 @@ if ($success) {
 
 echo "<br><br>";
 
-//Reading a json file
 $data = file_get_contents($file_name);
 echo $data;
 
