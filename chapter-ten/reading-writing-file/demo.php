@@ -9,7 +9,7 @@ like Aldus PageMaker including versions of Lorem Ipsum.";
 
 $file_name = "dummy.txt";
 
-//writing a file
+/* //writing a file
 $success = file_put_contents($file_name, $data);
 
 if ($success) {
@@ -22,9 +22,9 @@ echo "<br><br>";
 
 //Reading a file
 $data = file_get_contents($file_name);
-echo $data;
+echo $data; */
 
-/* //File write operation
+//File write operation
 $fp = fopen($file_name, 'w');
 fwrite($fp, $data);
 fclose($fp);
@@ -35,4 +35,4 @@ $size = filesize($file_name);
 // echo $size . "<br>";
 $data = fread($fp, $size);
 echo $data;
-fclose($fp); */
+fclose($fp);

@@ -1,9 +1,9 @@
 <?php
 $file_name = "data.json";
 $person = array(
-    'name' => 'Avinash Maskey',
-    'address' => 'Kathmandu',
-    'email' => 'avinash.maskey11@gmail.com'
+    'name' => 'Mukti Shakya',
+    'address' => 'Patan',
+    'email' => 'mukti.shakya@gmail.com'
 );
 
 if (file_exists($file_name)) {
