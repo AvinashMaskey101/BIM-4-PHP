@@ -1,0 +1,5 @@
+Questions:
+1. Define session and cookie with proper examples.
+2. Why session_start() should be at top of the page?
+3. Explain how cookie works with proper diagram.
+4. Explain how cookie works with proper diagram.
