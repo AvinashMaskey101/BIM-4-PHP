@@ -1,17 +1,15 @@
 <?php
-require_once '../function.php';
+include_once '../function.php';
 session_start();
 
 debug($_SESSION);
+
 echo "<br>";
-debug($_SESSION);
 
 unset($_SESSION['name']);
-echo "<br>";
 debug($_SESSION);
+echo "<br>";
 
 session_destroy();
-echo "<br>";
-
 debug($_SESSION);
-
+echo "<br>";

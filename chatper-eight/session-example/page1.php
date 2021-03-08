@@ -1,10 +1,9 @@
 <?php
 session_start();
+$_SESSION['name'] = "Nalin";
+echo $_SESSION['name'];
 
-$name = "Manil Shakya";
-
-$_SESSION['name'] = $name;
 $_SESSION['hobbies'] = array(
-    'one' => 'Playing guitar',
-    'two' => 'Travelling'
+    'one' => 'swimming',
+    'two' => 'reading'
 );
