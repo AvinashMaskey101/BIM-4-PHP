@@ -1,0 +1,25 @@
+[
+    {
+        "uname": "Jordan",
+        "lname": "Gates",
+        "email": "dyjy@mailinator.com",
+        "gender": "female",
+        "hobbies": [
+            "football",
+            "on"
+        ],
+        "city": "dhg",
+        "txtarea": "Hic iure eum est pos"
+    },
+    {
+        "uname": "Logan",
+        "lname": "Sexton",
+        "email": "wareta@mailinator.com",
+        "gender": "others",
+        "hobbies": [
+            "on"
+        ],
+        "city": "cht",
+        "txtarea": "Quia sed consequuntu"
+    }
+]
