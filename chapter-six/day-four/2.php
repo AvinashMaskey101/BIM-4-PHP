@@ -3,6 +3,8 @@
 
 if (array_key_exists('my_name', $_POST)) {
     process();
+}else{
+    echo "Sorry! form cannot be processed.";
 } 
 
 function process()

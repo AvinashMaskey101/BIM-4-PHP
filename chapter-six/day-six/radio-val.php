@@ -8,7 +8,6 @@
         $error = "** Please select your gender **";
     }
   }
-
 ?>
 
 <!DOCTYPE html>

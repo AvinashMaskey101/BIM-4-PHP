@@ -8,13 +8,11 @@
         }
         else {
             $howMany = $_POST["howMany"];
-
         }
     }
 
 
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">

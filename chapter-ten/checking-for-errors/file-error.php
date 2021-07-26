@@ -5,7 +5,7 @@ $data = "hello";
 
 $page = file_get_contents($file_name);
 // Note the three equals signs in the test expression
-if ($page === false) {
+if ($page == false) {
     echo "Couldn't load template.";
     $fp = fopen($file_name, 'w');
     fwrite($fp, $data);

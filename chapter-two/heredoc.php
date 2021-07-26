@@ -10,7 +10,6 @@
 
 /* 
 
-
 -> Heredoc provide useful alternatives to defining strings in PHP to the more widely
 used quoted string syntax. They are especially useful when we need to define a string that spans
 multiple lines (new lines are also interpreted when used in quoted strings) and where use of whitespace

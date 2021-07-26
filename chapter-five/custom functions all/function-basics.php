@@ -1,5 +1,5 @@
 <?php
-/*  Q. Basics of why we use functions in out code ?
+/*  Q. Basics of why we use functions in our code ?
 
     -> When you're writing computer programs, laziness is a virtue.
 
@@ -98,6 +98,7 @@ debug($array);
 
 echo "<b>Hello<b>"; 
  */
+
 /* Understanding Variable Scope  */
 
 /* function demo(){

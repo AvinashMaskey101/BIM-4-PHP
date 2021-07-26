@@ -4,13 +4,13 @@
     declared and is not NULL. This function returns true if the variable exists and is not NULL, 
     otherwise it returns false. */
 
-$a = 0;
+/* $a = 0;
 if (isset($a)) {
     echo "The variable \$a is set.";
 } else {
     echo "The variable \$a is not set.";
 }
-
+ */
 /* $x = 0;
 
 if (isset($x)) {

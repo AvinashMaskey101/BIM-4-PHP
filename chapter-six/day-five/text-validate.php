@@ -14,8 +14,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $error =  "** Please fill up the form! **";
     }
 }
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">

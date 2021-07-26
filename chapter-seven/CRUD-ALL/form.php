@@ -14,7 +14,7 @@
 
         Email: <input type="email" name="uemail"> <br><br>
 
-        Address: <input type="address" name="uaddress"> <br><br>
+        Address: <input type="text" name="uaddress"> <br><br>
 
         Number: <input type="number" name="unum"> <br><br>
 

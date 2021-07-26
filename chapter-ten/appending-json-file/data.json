@@ -1,25 +1,17 @@
 [
     {
-        "uname": "Jordan",
-        "lname": "Gates",
-        "email": "dyjy@mailinator.com",
-        "gender": "female",
-        "hobbies": [
-            "football",
-            "on"
-        ],
-        "city": "dhg",
-        "txtarea": "Hic iure eum est pos"
+        "name": "Mukti Shakya",
+        "address": "Patan",
+        "email": "mukti.shakya@gmail.com"
     },
     {
-        "uname": "Logan",
-        "lname": "Sexton",
-        "email": "wareta@mailinator.com",
-        "gender": "others",
-        "hobbies": [
-            "on"
-        ],
-        "city": "cht",
-        "txtarea": "Quia sed consequuntu"
+        "name": "Mukti Shakya",
+        "address": "Patan",
+        "email": "mukti.shakya@gmail.com"
+    },
+    {
+        "name": "Mukti Shakya",
+        "address": "Patan",
+        "email": "mukti.shakya@gmail.com"
     }
 ]

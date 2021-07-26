@@ -17,7 +17,7 @@
 <body>
     <form method="post" action="process.php">
         <label for="fname">First Name: </label>
-        <input type="text" id="fname" name="fname" required> <br><br>
+        <input type="text" id="fnames" name="fname" required> <br><br>
 
         <label for="lname">Last Name:</label>
         <input type="text" id="lname" name="lname"> <br><br>
@@ -28,9 +28,9 @@
         <input type="radio" name="gender[]" value="male"> Male
         <input type="radio" name="gender[]"> Female <br><br>
 
-        <input type="checkbox" name="hobbies"> Football
-        <input type="checkbox" name="hobbies"> Playing Guitar
-        <input type="checkbox" name="hobbies"> Cricket <br><br>
+        <input type="checkbox" name="hobbies[]"> Football
+        <input type="checkbox" name="hobbies[]"> Playing Guitar
+        <input type="checkbox" name="hobbies[]"> Cricket <br><br>
 
         City you live in: <select name="city[]" multiple>
             <option value="ktm" selected> Kathmandu </option>

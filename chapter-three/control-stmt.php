@@ -4,6 +4,7 @@
 Control Statements are core features of PHP.
 
 Control Statemensts/Structure are divided into two categories:
+
         1. Conditional Statements
                 a. if
                 b. else
@@ -106,14 +107,14 @@ switch ($act) {
 
                 $i = 1;
 
-                do {
+                /* do {
                         echo "<tr>
                                         <td>" . "5 * " . $i . " = " . (5 * $i) . "</td>
                              </tr>";
                         $i++;
-                } while ($i <= 10);
+                } while ($i <= 10); */
 
-               /*   while ($i <= 10) {
+                /*  while ($i <= 10) {
                         echo "<tr>
                                         <td>" . "8 * " . $i . " = " . (8 * $i) . "</td>
                                 </tr>";

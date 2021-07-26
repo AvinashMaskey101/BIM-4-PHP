@@ -1,7 +1,7 @@
 <?php
 /* Form Validation */
 $name = $email = $url = $gender = $country = $bio = $error = $success = "";
-$nameErr = $emailErr = $countryErr = "";
+$nameErr = $emailErr = "";
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     function clean_input($field_data)
@@ -40,7 +40,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $error = "** All the fields are compuslory! **";
     }
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -63,7 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             ?>
         </span>
         <br><br>
-        Email: <input type="text" name="email">
+        Email: <input type="email" name="email">
         <span style="color: red">
             <?php
             if ($emailErr) {
@@ -75,9 +74,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         URL: <input type="url" name="url"> <br><br>
         Male <input type="radio" name="gender" checked>
         Female <input type="radio" name="gender"> <br><br>
-        <select name="country[]">
+        <select name="country">
             <option value="0" disabled selected>-- Select Your Country --</option>
-            <option value="nepal" selected>Nepal</option>
+            <option value="nepal">Nepal</option>
             <option value="india">India</option>
             <option value="usa">America</option>
             <option value="germany">Germany</option>

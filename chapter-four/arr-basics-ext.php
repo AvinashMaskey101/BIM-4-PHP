@@ -47,8 +47,8 @@ $computers = array(
 // This makes $vegetables an array
 
 
-$vegetable = 'delicious';
-$vegetable['corn'] = 'yellow';
+// $vegetable = 'delicious';
+// $vegetable['corn'] = 'yellow';
 
 /* Scalar variables are those containing an integer, float, string or boolean. Types like array
    and objects are not scalar.
@@ -57,7 +57,7 @@ $vegetable['corn'] = 'yellow';
 
 // This removes any trace of "corn" and "yellow" and makes $vegetables 
 
-echo $vegetable;
+// echo $vegetable;
 
 
 // This makes $fruits a scalar
@@ -112,12 +112,12 @@ $dinner_1[0] = 'Choila';
 
 /* echo "<pre>";
 print_r($dinner);
-echo "</pre>";
-
-echo "<pre>";
-print_r($dinner_1);
 echo "</pre>"; */
 
+/* echo "<pre>";
+print_r($dinner_1);
+echo "</pre>";
+ */
 
 
 

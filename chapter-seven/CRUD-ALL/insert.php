@@ -12,10 +12,10 @@ require_once 'connect.php';
 
 $sql = "INSERT INTO students
         SET
-        full_name = '".$_POST['uname']."', 
+        name = '".$_POST['uname']."', 
         email = '".$_POST['uemail']."', 
         address = '".$_POST['uaddress']."', 
-        contact_number = '".$_POST['unum']."' 
+        number = '".$_POST['unum']."' 
         ";
 
 //executing a query in database

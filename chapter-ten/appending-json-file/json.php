@@ -12,16 +12,16 @@ if (file_exists($file_name)) {
     if ($old_data) {
         //not empty, already data exists
         $to_write = json_decode($old_data);
-        $to_write[] = $_POST; 
+        $to_write[] = $person; 
     } else {
         //empty data
         $to_write = array(
-            $_POST
+            $person
         );
     }
 } else {
     $to_write = array(
-        $_POST
+       $person
     );
 }
 

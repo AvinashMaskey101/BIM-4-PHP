@@ -20,6 +20,9 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
 
     //fetching a single row from a db table
     $old_data = mysqli_fetch_assoc($query_1);
+}else{
+    header('location: select.php');
+    exit;
 }
 ?>
 <!DOCTYPE html>
@@ -34,13 +37,13 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
 <body>
     <form action="update.php?id=<?php echo $old_data['id']; ?>" method="POST" enctype="" name="form">
 
-        Name: <input type="text" name="uname" value="<?php echo $old_data['full_name']; ?>"> <br><br>
+        Name: <input type="text" name="uname" value="<?php echo $old_data['name']; ?>"> <br><br>
 
         Email: <input type="email" name="uemail" value="<?php echo $old_data['email']; ?>"> <br><br>
 
         Address: <input type="address" name="uaddress" value="<?php echo $old_data['address']; ?>"> <br><br>
 
-        Number: <input type="number" name="unum" value="<?php echo $old_data['contact_number']; ?>"> <br><br>
+        Number: <input type="number" name="unum" value="<?php echo $old_data['number']; ?>"> <br><br>
 
         <input type="submit" value="Submit">
     </form>

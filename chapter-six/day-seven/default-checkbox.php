@@ -1,8 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $hobb = @$_POST['hobbies'];
-   
-    
 }
 
 ?>

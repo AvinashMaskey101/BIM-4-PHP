@@ -9,8 +9,6 @@
             $favFruit = $_POST['favFruit'];
         }
     }
-
-
 ?>
 
 <!DOCTYPE html>
@@ -49,7 +47,7 @@
                     if(in_array($option, $favFruit)){
                         echo "selected";
                     }
-                    echo ">".ucFirst($option)."</option>";
+                    echo ">".ucfirst($option)."</option>";
                 }
             ?>  
         </select>

@@ -55,7 +55,7 @@ echo "</pre>"; */
         //array last index = size - 1
             $count = count($person);
             for ($i=0; $i < $count ; $i++) { 
-                ?>
+                ?>  
                 <tr>
                     <td><?php echo $i + 1 . ".";?></td>
                     <td><?php echo $person[$i]['name'] ;?></td>

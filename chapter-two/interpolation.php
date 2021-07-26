@@ -28,8 +28,6 @@ echo "<br>";
 
 //Interpolating with curly braces
 
-
-
 /* $res = 'updat';
 $bool = true;
 

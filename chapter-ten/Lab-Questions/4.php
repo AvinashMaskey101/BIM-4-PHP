@@ -15,7 +15,9 @@ $size = filesize($filename);
 // $data = fread($fp, $size);
 $data = fgets($fp, $size);
 echo $data;
-/* //reading a file line by line
-while(!feof($fp)){
 
+//reading a file line by line
+/* while(!feof($fp)){
+    $line = fgets($fp);
+    echo $line . "<br>";
 } */

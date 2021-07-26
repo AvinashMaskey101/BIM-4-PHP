@@ -12,8 +12,8 @@ if ($dishes['total'] > 20) {
     echo "You ate a lot: LOL ";
 }else{
     echo "You ate $dishes[wings] pieces of wings.";
-}  */
-
+} 
+ */
 
 
 /* Example: Interpolating array element values in doublequoted strings */
@@ -39,14 +39,14 @@ echo $str; */
 
 /* String to array conversion */
 
-/* $string = "mango apple, papaya, grapes";
+/* $string = "mango, apple, papaya, grapes";
 
 $arr = explode(", ", $string);
 
 echo "<pre>";
 print_r($arr);
-echo "</pre>"; */
-
+echo "</pre>";
+ */
  
 
 

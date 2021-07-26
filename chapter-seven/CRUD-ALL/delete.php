@@ -20,7 +20,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
         header('location: select.php');
         exit;
     }
-    
+
     $sql = "DELETE FROM students WHERE id = " . $id;
     $query = mysqli_query($conn, $sql);
 

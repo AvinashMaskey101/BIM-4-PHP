@@ -15,4 +15,4 @@ echo $date . "<br>";
 
 
 /* Q. 25th of September, 2020 */
-echo date('d\t\h F Y');
+// echo date('d\t\h F Y');

@@ -12,7 +12,7 @@ Definition's:
 ->  Cookie usually for longer period of time because cookie is in control of user.
 
 ->  Session and cookie are both domain dependent i.e. a data set in one domain cannot
-   be accessed by another domain.
+    be accessed by another domain.
 
 ->  You should not store user's critical information in cookie like passwords, 
     a/c number etc.

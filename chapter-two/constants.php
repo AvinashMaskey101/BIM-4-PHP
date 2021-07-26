@@ -1,7 +1,7 @@
 <?php
 
 /* In php constants can be defined in two ways:
-    a) define() //outside of the class
+    a) define() // outside of the class
     b) const // inside of the class
 */
 /* 
