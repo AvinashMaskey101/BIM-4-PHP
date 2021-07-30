@@ -3,7 +3,7 @@ $favFruitErr = "";
 $favFruit = array();
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
-    /* echo "<pre>";
+   /*  echo "<pre>";
     print_r($_POST);
     echo "</pre>";
     exit; */
@@ -57,6 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         <br>
         <br>
         <input type="submit" value="Submit">
+
     </form>
 </body>
 

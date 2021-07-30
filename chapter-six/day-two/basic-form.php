@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <form method="post" action="hello.php">
+    <form method="POST" action="hello.php">
         <label for="my_name">Username: </label>
         <input type="text" id="my_name" name="my_name"> <br><br>
 

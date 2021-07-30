@@ -66,6 +66,7 @@ echo "</pre>"; */
                 <?php
             }
         ?>
+    </table>
 </body>
 
 </html>

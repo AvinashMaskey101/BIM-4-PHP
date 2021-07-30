@@ -9,8 +9,8 @@ if (isset($a)) {
     echo "The variable \$a is set.";
 } else {
     echo "The variable \$a is not set.";
-}
- */
+} */
+
 /* $x = 0;
 
 if (isset($x)) {

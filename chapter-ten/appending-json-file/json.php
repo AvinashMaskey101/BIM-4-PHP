@@ -1,10 +1,12 @@
 <?php
 $file_name = "data.json";
-$person = array(
+/* $person = array(
     'name' => 'Mukti Shakya',
     'address' => 'Patan',
     'email' => 'mukti.shakya@gmail.com'
-);
+); */
+
+$person = $_POST;
 
 if (file_exists($file_name)) {
     //file has been created
@@ -32,7 +34,7 @@ $success = file_put_contents($file_name, $json_str);
 if ($success) {
     echo "File written successfully.";
 } else {
-    echo "Sorry! problem while wrirting a file.";
+    echo "Sorry! problem while writing a file.";
 }
 
 echo "<br><br>";

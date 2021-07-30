@@ -2,6 +2,7 @@
 require_once 'connect.php';
 
 if (isset($_POST) && !empty($_POST)) {
+    
     $sql = "UPDATE students
     SET
     name = '" . $_POST['uname'] . "', 

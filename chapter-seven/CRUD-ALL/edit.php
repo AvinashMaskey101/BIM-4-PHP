@@ -46,6 +46,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
         Number: <input type="number" name="unum" value="<?php echo $old_data['number']; ?>"> <br><br>
 
         <input type="submit" value="Submit">
+        
     </form>
 </body>
 

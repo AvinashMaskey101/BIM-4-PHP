@@ -10,7 +10,6 @@ if ($_FILES['image']['error'] == 0) {
     //no error in file
     if ($_FILES['image']['size'] <= 1000000) {
         //file size is less than 1mb
-
         $ext = pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION); //returns file extension
 
         if(in_array($ext, $allowed_ext)){

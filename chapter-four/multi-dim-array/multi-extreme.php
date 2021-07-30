@@ -89,6 +89,7 @@ exit;
         <?php
         }
         ?>
+    </table>
 </body>
 
 </html>

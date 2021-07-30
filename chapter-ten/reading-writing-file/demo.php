@@ -7,32 +7,32 @@ remaining essentially unchanged. It was popularised in the 1960s with the releas
 sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
 like Aldus PageMaker including versions of Lorem Ipsum.";
 
+
 $file_name = "dummy.txt";
 
-/* //writing a file
-$success = file_put_contents($file_name, $data);
+//writing a file
+// $success = file_put_contents($file_name, $data);
 
-if ($success) {
+/* if ($success) {
     echo "File written successfully.";
 } else {
     echo "Sorry! problem while wrirting a file.";
-}
+} */
 
 echo "<br><br>";
 
 //Reading a file
-$data = file_get_contents($file_name);
+/* $data = file_get_contents($file_name);
 echo $data; */
 
 //File write operation
-$fp = fopen($file_name, 'w');
+/* $fp = fopen($file_name, 'w');
 fwrite($fp, $data);
-fclose($fp);
+fclose($fp); */
 
 //File read operation
-$fp = fopen($file_name, 'r');
+/* $fp = fopen($file_name, 'r');
 $size = filesize($file_name);
-// echo $size . "<br>";
 $data = fread($fp, $size);
 echo $data;
-fclose($fp);
+fclose($fp); */

@@ -18,6 +18,7 @@ $person = array(
     'email' => 'theshadowsnepal@gmail.com'
 );
 
+
 //array to json conversion
 $json_str = json_encode($person);
 
@@ -29,7 +30,7 @@ $success = file_put_contents($file_name, $json_str);
 if ($success) {
     echo "File written successfully.";
 } else {
-    echo "Sorry! problem while wrirting a file.";
+    echo "Sorry! problem while writing a file.";
 }
 
 echo "<br><br>";

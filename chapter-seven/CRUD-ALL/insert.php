@@ -5,15 +5,16 @@
         b. Write SQL, for php SQL is string data
         c. Execute SQL
         d. Optional. Fetch your data
-    */
+*/
 
 //databse connection
 require_once 'connect.php';
 
 if (isset($_POST) && !empty($_POST)) {
+
     $sql = "INSERT INTO students
     SET
-    name = '" . $_POST['uname'] . "', 
+    name = '".$_POST['uname']."', 
     email = '" . $_POST['uemail'] . "', 
     address = '" . $_POST['uaddress'] . "', 
     number = '" . $_POST['unum'] . "' 

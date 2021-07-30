@@ -44,10 +44,10 @@
         <label for="">Enter Your Queries here ? </label><br><br>
         <textarea name="txtarea" rows="4" cols="30" style="resize: none"></textarea><br><br>
 
-        <input type="button" value="BUTTON">
-        <input type="reset" value="RESET">
+        <!-- <input type="button" value="BUTTON">
+        <input type="reset" value="RESET"> -->
         <input type="submit" value="Submit">
-        <Button type="button" value="btn"> <i>Hello</i> </Button>
+        <!-- <Button type="button" value="btn"> <i>Hello</i> </Button> -->
 
 
     </form>

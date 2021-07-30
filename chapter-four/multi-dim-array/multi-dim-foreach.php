@@ -65,6 +65,7 @@ $person = array(
         }
 
         ?>
+    </table>
 </body>
 
 </html>
